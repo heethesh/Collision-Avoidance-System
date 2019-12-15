@@ -6,6 +6,8 @@
 # Collision-Avoidance-System
 Collision Avoidance System for Self-Driving Vehicles by Delta Autonomy, Robotics Institute, CMU. This stack was developed for my MRSD capstone project. 
 
+<img src="docs/collision-avoidance.png?raw=true" width="250">
+
 ## Description
 
 Our use-case involves an oncoming vehicle encroaching into the ego-vehicle's (heavy-duty truck) lane, on a two-lane countryside highway. The perception algorithms perform the detection and tracking of vehicles, and lane marking detection, using a sensor fusion of a monocular camera and RADAR. The prediction algorithms predict the trajectories of all vehicles in the environment including the ego-vehicle. Based on the predicted trajectories, the probability of collision, position and time-to-impact is computed. An evasive maneuver, such as steering or braking, is planned and executed to avoid or mitigate the crash. The project was developed in Carla simulator and ROS.
@@ -25,3 +27,17 @@ This repository is only a collection of all the ROS packages developed by us. Fe
 ---
 
 My primary contributions were in developing the Perception, Tracking/Fusion Pipelines and the stack for the RC Car Platform, along with managing the software stack and developing DeltaViz, which a JavaScript based GUI for ROS. My secondary contributions also include developing a custom RADAR sensor in Carla ROS Bridge. Find out more about our project on [deltaautonomy.github.io](http://deltaautonomy.github.io/). This stack was also developed by [@ykarmesh](https://github.com/ykarmesh), [@singaporv](https://github.com/singaporv) and [@pparmesh](https://github.com/pparmesh).
+
+### DeltaViz
+
+![DeltaViz](docs/deltaviz.jpg?raw=true "DeltaViz")
+
+## Sensor Fusion, Tracking, and Prediction
+
+![Tracking Fusion](docs/tracking-fusion.jpg?raw=true "Tracking Fusion")
+![Prediction](docs/traj-pred.PNG?raw=true "Prediction")
+
+### RC Car Platform
+
+![RC Car](docs/rccardiag.jpg?raw=true "RC Car")
+![RC Car Camera RADAR Sensor Fusion](docs/rccardet.jpg?raw=true "Camera RADAR Sensor Fusion")
