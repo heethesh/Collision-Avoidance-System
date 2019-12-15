@@ -1,0 +1,24 @@
+[submodule "delta_perception"]
+	path = delta_perception
+	url = https://github.com/deltaautonomy/delta_perception
+[submodule "delta_tracking_fusion"]
+	path = delta_tracking_fusion
+	url = https://github.com/deltaautonomy/delta_tracking_fusion
+[submodule "delta_prediction"]
+	path = delta_prediction
+	url = https://github.com/deltaautonomy/delta_prediction
+[submodule "delta_planning_controls"]
+	path = delta_planning_controls
+	url = https://github.com/deltaautonomy/delta_planning_controls
+[submodule "delta_viz"]
+	path = delta_viz
+	url = https://github.com/deltaautonomy/delta_viz
+[submodule "delta_msgs"]
+	path = delta_msgs
+	url = https://github.com/deltaautonomy/delta_msgs
+[submodule "delta_carla_ros_bridge"]
+	path = delta_carla_ros_bridge
+	url = https://github.com/deltaautonomy/delta_carla_ros_bridge
+[submodule "delta_rc_car"]
+	path = delta_rc_car
+	url = https://github.com/deltaautonomy/delta_rc_car
