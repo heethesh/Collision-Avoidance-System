@@ -3,6 +3,9 @@
 [![ROS Distro: Kinetic](https://img.shields.io/badge/ROS-Kinetic-green.svg)](http://wiki.ros.org/kinetic)
 [![License: BSD](https://img.shields.io/badge/License-BSD-yellow.svg)](./LICENSE)
 
+<br/>
+<img src="docs/logo.png?raw=true" width="300">
+
 # Collision-Avoidance-System
 Collision Avoidance System for Self-Driving Vehicles by Delta Autonomy, Robotics Institute, CMU. This stack was developed for my MRSD capstone project. 
 
