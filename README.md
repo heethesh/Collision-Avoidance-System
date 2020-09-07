@@ -15,6 +15,8 @@ Collision Avoidance System for Self-Driving Vehicles by Delta Autonomy, Robotics
 
 Our use-case involves an oncoming vehicle encroaching into the ego-vehicle's (heavy-duty truck) lane, on a two-lane countryside highway. The perception algorithms perform the detection and tracking of vehicles, and lane marking detection, using a sensor fusion of a monocular camera and RADAR. The prediction algorithms predict the trajectories of all vehicles in the environment including the ego-vehicle. Based on the predicted trajectories, the probability of collision, position and time-to-impact is computed. An evasive maneuver, such as steering or braking, is planned and executed to avoid or mitigate the crash. The project was developed in Carla simulator and ROS.
 
+Find out more about our project on [deltaautonomy.github.io](http://deltaautonomy.github.io/).
+
 ## Results
 - Collisions detected in 90% cases with 80% accuracy, and mitigated in 60% cases via an evasive maneuver or braking strategy.
 - Achieved mAP of 0.7-0.9 for object detection, lane detection with offsets less than 0.5m.
@@ -26,10 +28,6 @@ Our use-case involves an oncoming vehicle encroaching into the ego-vehicle's (he
 
 ## Issues and Contributions
 This repository is only a collection of all the ROS packages developed by us. Feel free to raise issues and pull requests on the original repositories.
-
----
-
-My primary contributions were in developing the Perception, Tracking/Fusion Pipelines and the stack for the RC Car Platform, along with managing the software stack and developing DeltaViz, which a JavaScript based GUI for ROS. My secondary contributions also include developing a custom RADAR sensor in Carla ROS Bridge. Find out more about our project on [deltaautonomy.github.io](http://deltaautonomy.github.io/). This stack was also developed by [@ykarmesh](https://github.com/ykarmesh), [@singaporv](https://github.com/singaporv) and [@pparmesh](https://github.com/pparmesh).
 
 ### DeltaViz
 
